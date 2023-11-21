@@ -1,0 +1,147 @@
+body{
+    background-color: black;
+    width:1434px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#all-conversion-sections{
+    display: grid;
+    justify-content: center;
+}
+#home{
+    background-color:  #483355;
+    padding-bottom: 1cm;
+    margin-left:-1cm;
+    margin-right:-1cm;
+    margin-top:-1cm;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+}
+header{ 
+    font-size: 35px;
+    color: rgb(240, 234, 245);
+    float: left;
+    padding-left: 1cm;
+    margin-left: 50px;
+}
+.topdiv {
+    float: right;
+    padding-right: 1cm;
+    margin-top: -1.5%;
+    margin-right: 50px;
+}
+.topdiv button{
+    color: lightgray;
+    background-color:   #483355;
+    margin: 15px;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  .topdiv button:hover{
+    color: white;
+    font-weight: bolder;
+    background-color: #382742;
+    border-radius: 30px;
+  }
+  button{
+    font-size: 15px;
+    border: transparent;
+    width: fit-content;
+    background-color: rgb(173, 218, 173);
+    border-radius: 25px;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+button:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+figure{
+    float: left;
+    justify-self: auto;
+    width: 250px;
+}
+img{
+    width: 270px;
+    object-fit: cover;
+}
+#temperature img{
+    width: 200px;
+    object-fit: cover;
+
+}
+figcaption{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.b{
+    border-top-style: solid;
+    background-color: white;
+    border-top-width: 20px;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-top: 100px;
+    display: flex;
+}
+.temperature{
+    border-top-color: green;
+}
+.weight{
+    border-top-color: coral;
+}
+.distance{
+    border-top-color: cyan;
+}
+legend {
+    font-size: 30px;
+    font-weight: bolder;
+}
+.iconbutton{
+    width:45px;
+    height:45px;
+    border-radius: 100%;
+    background-color: rgba(250, 249, 245, 0.936);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom:45px;
+    right:65px;
+    }
+.iconbutton img {
+    width:30px;
+}
+footer {
+    background-color:rgb(240, 234, 245);
+    margin-top: 20px;
+    padding: 20px;
+    margin-left:-1cm;
+    margin-right:-1cm;
+    margin-bottom:-1cm;
+    font-size: medium;
+    text-align: center;
+}
+article{
+    margin: 60px;
+    font-size: 15px;
+}
+aside{
+    justify-content: left;
+}
+input[type=number] {
+    border: 2px solid green;
+    border-radius: 4px;
+    height: 25px;
+}
+input[type=text] {
+    border: 2px solid green;
+    border-radius: 4px;
+    height: 25px;
+}
